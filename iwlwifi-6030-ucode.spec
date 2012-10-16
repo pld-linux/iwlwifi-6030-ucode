@@ -3,12 +3,12 @@ Summary(pl.UTF-8):	Obraz mikrokodu dla kart Intel Centrino Advanced-N 6230, Wire
 %define	_fname	6000g2b
 %define	_module	6030
 Name:		iwlwifi-%{_module}-ucode
-Version:	17.168.5.2
+Version:	18.168.6.1
 Release:	1
 License:	distributable
 Group:		Base/Kernel
 Source0:	http://www.intellinuxwireless.org/iwlwifi/downloads/iwlwifi-6000g2b-ucode-%{version}.tgz
-# Source0-md5:	d87411296b4eeda0c91322228e9f8437
+# Source0-md5:	98745515bd65e9cb34540da47b5a75d6
 URL:		http://www.intellinuxwireless.org/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
