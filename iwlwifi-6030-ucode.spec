@@ -1,10 +1,11 @@
+# # NOTE: currently it's included in linux-firmware.spec
 Summary:	Microcode image for Intel Centrino Advanced-N 6230, Wireless-N 1030 and Wireless-N 130
 Summary(pl.UTF-8):	Obraz mikrokodu dla kart Intel Centrino Advanced-N 6230, Wireless-N 1030 i Wireless-N 130
 %define	_fname	6000g2b
 %define	_module	6030
 Name:		iwlwifi-%{_module}-ucode
 Version:	18.168.6.1
-Release:	1
+Release:	1.1
 License:	distributable
 Group:		Base/Kernel
 Source0:	http://www.intellinuxwireless.org/iwlwifi/downloads/iwlwifi-6000g2b-ucode-%{version}.tgz
